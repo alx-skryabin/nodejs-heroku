@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
                   <li><a href="/about">About</a></li>
               </ul>
           </nav>
-          <h1>Home Page</h1>
+          <h1>Home Page!</h1>
       </div>
   `)
 })
@@ -26,7 +26,7 @@ app.get('/about', (req, res) => {
                   <li><a href="/about">...About...</a></li>
               </ul>
           </nav>
-          <h1>About Page</h1>
+          <h1>About Page!</h1>
       </div>
   `)
 })
@@ -40,7 +40,7 @@ app.get('*', (req, res) => {
                   <li><a href="/about">About</a></li>
               </ul>
           </nav>
-          <h1>404 Page</h1>
+          <h1>404 Page!</h1>
       </div>
   `)
 })
