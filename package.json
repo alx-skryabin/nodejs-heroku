@@ -1,0 +1,14 @@
+{
+  "name": "deploy",
+  "version": "1.0.0",
+  "description": "node js, express, heroku",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "gh:@alx-skryabin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
